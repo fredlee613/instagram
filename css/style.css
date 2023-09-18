@@ -15,13 +15,13 @@ body {
 #top_bar img {
     /* height: 30px; */
     
-    width: 80%;
-    height: 80%;
-    object-fit:cover;
+    width: 12vw;
+    height: 4vw;
+
     margin-left: auto;
     margin-right: auto;
-
-    /* margin-bottom: auto; */
+    margin-top: auto;
+    margin-bottom: auto;
 }
 #top_bar input {
     background-color: white;
@@ -51,8 +51,8 @@ body {
     grid-template-columns: 1.5fr 10fr;
 }
 #profile_pic {
-    width: 120px;
-    height: 120px;
+    width: 7vw;
+    height: 7vw;
 
     margin-left: auto;
     margin-right: auto;
@@ -64,13 +64,15 @@ body {
     grid-template-rows: 1fr 1fr;
 }
 #id {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 200;
     margin-bottom: 5px;
 }
 button {
-    height: 70%;
-    width: 100%;
+    height: 5vw;    
+    max-height: 5vw;
+    min-height: 5vw;
+    width: 85vw;
 
     font-size: 16px;
     font-weight: 700;
@@ -96,8 +98,8 @@ button {
     font-size: 25px;
 }
 .highlight_pic {
-    width: 80px;
-    height: 80px;
+    width: 5vw;
+    height: 5vw;
 
     margin-left: auto;
     margin-right: auto;
@@ -114,15 +116,16 @@ button {
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
 
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .stat {
     text-align: center;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 300;
 }
 .circle_pic {
-    border: solid white 1px;
+    border: solid gray 1px;
     border-radius: 50%;
     
     width: 100%;
